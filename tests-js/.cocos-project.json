@@ -1,0 +1,10 @@
+{
+    "project_type": "js",
+    "has_native": true,
+    "web_cfg": {
+        "project_path": "",
+        "run_root_dir": "",
+        "sub_url": ""
+    },
+    "engine_dir": "frameworks/cocos2d-html5"
+}
