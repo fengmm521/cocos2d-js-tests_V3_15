@@ -6,13 +6,15 @@ var ccbjs = "";
 // so the respath will modify to res,
 if (!cc.sys.isNative)
 {
-    if (cc.game.CONFIG_KEY.engineDir && cc.game.config[cc.game.CONFIG_KEY.engineDir] !== "frameworks/cocos2d-html5") {
-        ccbjs = "resjs/";
-    }
-    else
-    {
-        ccbjs = "";
-    }
+   
+    // if (cc.game.config[cc.game.CONFIG_KEY.engineDir] !== "frameworks/cocos2d-html5")
+    // {
+    //     ccbjs = "resjs/";
+    // }
+    // else
+    // {
+    //     ccbjs = "";
+    // }
 
 }
 

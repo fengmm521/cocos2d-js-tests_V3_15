@@ -4,7 +4,17 @@
     "web_cfg": {
         "project_path": "",
         "run_root_dir": "",
-        "sub_url": ""
+        "sub_url": "",
+        "copy_resources": [
+            {
+                "from": "style-desktop.css", 
+                "to": "./"
+            },
+            {
+                "from": "res", 
+                "to": "./res"
+            }
+        ]
     },
     "engine_dir": "frameworks/cocos2d-html5"
 }

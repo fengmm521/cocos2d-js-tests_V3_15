@@ -128,7 +128,7 @@ cc.game.onStart = function(){
         cc.view.resizeWithBrowserSize(true);
         // js-test use cpptest resource in debug mode , and in the release mode, console will copy the resource into the res dir
         // so the respath will modify to res,
-        if (cc.game.CONFIG_KEY.engineDir && cc.game.config[cc.game.CONFIG_KEY.engineDir] !== "frameworks/cocos2d-html5") {
+        if (cc.game.config[cc.game.CONFIG_KEY.engineDir] !== "frameworks/cocos2d-html5") {
             cc.loader.resPath = 'res';
         }
         else {
