@@ -38,3 +38,9 @@ cocos compile -p web -m release
 ```
 
 这时会在项目目录下生成一个publish目录，把里边的内容复制到你的网站服务器就可以了
+
+## 三、js-tests发布demo
+
+可以在下边打开查看运行的效果.
+
+http://btc.woodcol.com
